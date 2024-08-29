@@ -1,0 +1,137 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+}
+.box{
+    height: 300px;
+    width: 40%;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 50px auto 0;
+}
+.box h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+.age{
+    height: 150px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.age input{
+    height: 40px;
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+    flex: 1;
+    font-size: 16px;
+}
+.age button{
+    height: 40px;
+    width: 20%;
+    background-color: rgb(32, 42, 43);
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: medium;
+}
+#result{
+    color: white;
+    text-align: center;
+    font-size: 2 rem;
+} */
+
+
+
+
+/* Basic styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container for the calculator */
+.box {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+
+/* Main heading styles */
+.box h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #00796b;
+}
+
+/* Styles for the input and button area */
+.age {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Styles for the date input field */
+input[type="date"] {
+    padding: 12px;
+    border: 1px solid #b2dfdb;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    transition: border 0.3s ease;
+}
+
+input[type="date"]:focus {
+    border-color: #00796b;
+}
+
+/* Styles for the button */
+button {
+    padding: 12px;
+    background-color: #00796b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+/* Styles for the result paragraph */
+#result {
+    font-size: 16px;
+    color: #004d40;
+    margin-top: 10px;
+}
